@@ -68,6 +68,7 @@ if (isset($_POST['submit'])) {
                 <input type="Text" name="PenjagaDevice" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="<?= $user['penjaga_device'] ?>">
             </div>
             <button type="submit" name="submit" class="submit btn btn-primary">Edit</button>
+            <button> type="submit" name="submit" class="submit btn btn-danger">Cancel</button>
          </form>
     </div>
 </body>
