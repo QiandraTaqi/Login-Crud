@@ -14,6 +14,7 @@ include 'config.php';
 </head>
 <body>
     
+<h1 class="mt-5 ms-5"><b>Data Device</b></h1>
     <div class="container">
         <button class="btn btn-primary my-5"><a href="user.php" class="text-light text-decoration-none">Tambah Santri</a></button>
         <table class="table">
