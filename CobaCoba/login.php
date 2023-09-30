@@ -61,7 +61,7 @@ if (isset($_POST['login'])) {
         <form action="" method="post">
             <input type="text" value="<?php echo $username ?>" name="username" class="input" placeholder="Username..." /><br /><br />
             <input type="password" name="password" class="input" placeholder="Password..." /><br /><br />
-            <input class="text-white rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 ml-44 p-2 border-indigo-500" type="submit" name="login" class="button" value="Login" />
+            <input class="text-white rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 ml-44 p-2 border-indigo-500 hover:shadow-lg hover:shadow-indigo-500/50 hover:ease-in duration-300" type="submit" name="login" class="button" value="Login" />
         </form><br><br>
         <p>Belum punya akun? <a href="register.php" class="text-cyan-600">Register!</a></p>
     </div>
