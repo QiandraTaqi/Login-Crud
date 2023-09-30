@@ -27,26 +27,29 @@ if (isset($_POST["submit"])) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  class="bg-gradient-to-r from-cyan-500 to-blue-500">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans">
 </head>
 
 <body>
     <div id="app">
-        <h1>Halaman Register</h1>
+        <h1 class="text-3xl mt-3 mb-3">Halaman Register</h1>
         <form action="" method="post">
             <input type="text" name="username" class="input" placeholder="Username" /><br /><br />
             <input type="password" name="password" class="input" placeholder="Password" /><br /><br />
             <input type="password" name="confirmpassword" class="input" placeholder="Confirm Password"><br /><br />
-            <input type="submit" name="submit" class="button" value="Register" />
+            <input class="text-white rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 ml-44 p-2 border-indigo-500" type="submit" name="submit" class="button" value="Register" />
         </form><br>
-        <p>Sudah punya akun? <a href="login.php">Login</a></p>
+        <p>Sudah punya akun? <a href="login.php" class="text-cyan-600">Login</a></p>
     </div>
 </body>
 
