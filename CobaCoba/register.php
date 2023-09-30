@@ -47,7 +47,7 @@ if (isset($_POST["submit"])) {
             <input type="text" name="username" class="input" placeholder="Username" /><br /><br />
             <input type="password" name="password" class="input" placeholder="Password" /><br /><br />
             <input type="password" name="confirmpassword" class="input" placeholder="Confirm Password"><br /><br />
-            <input class="text-white rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 ml-44 p-2 border-indigo-500" type="submit" name="submit" class="button" value="Register" />
+            <input class="text-white rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 ml-44 p-2 border-indigo-500 hover:shadow-lg hover:shadow-indigo-500/50 hover:ease-in duration-300" type="submit" name="submit" class="button" value="Register" />
         </form><br>
         <p>Sudah punya akun? <a href="login.php" class="text-cyan-600">Login</a></p>
     </div>
